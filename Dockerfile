@@ -3,8 +3,8 @@ FROM oraclelinux:7-slim
 
 MAINTAINER Steve Swinsburg <steve.swinsburg@gmail.com>
 
-ENV ORACLE_BASE=/opt/oracle \
-    ORACLE_HOME=/opt/oracle/product/12.2.0.1/dbhome_1 \
+ENV ORACLE_BASE=/u01/app/oracle \
+    ORACLE_HOME=/u01/app/oracle/product/12.2.0.1/dbhome_1 \
     INSTALL_FILE_1="linuxx64_12201_database.zip" \
     INSTALL_RSP="db_inst.rsp" \
     CONFIG_RSP="dbca.rsp.tmpl" \
